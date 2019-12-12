@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Solway&display=swap');
+
+img#logo {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+h1 {
+text-align: center;
+font-family: 'Solway', serif;
+color: rgb(1, 210, 119);
+}
+
+h2 {
+    font-family: 'Abel', serif ;
+    font-weight: bold;
+    color: rgb(1, 210, 119);
+}
+
+img.poster {
+    float: left;
+}
+
+div.info {
+    display:block;
+    font-family: 'Abel', serif;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: 2em;
+    float:left;
+}
+
+p {
+    margin-left: 20em;
+    margin-right: 20em;
+}
