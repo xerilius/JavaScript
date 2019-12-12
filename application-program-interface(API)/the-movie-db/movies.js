@@ -26,10 +26,8 @@ $(document).ready(function() {
                 html += "<p><b>Release Date:</b> " + value.release_date + "</p>";
                 html += "<p><b>Rating:</b> " + value.vote_average + "</p>";
                 html += "<p><b>Overview:</b> " + value.overview + "</p></div>";
-    
             })
             $("#movies").html(html);
         })
         .catch(error => console.error(error))
-
 }); // end ready()
